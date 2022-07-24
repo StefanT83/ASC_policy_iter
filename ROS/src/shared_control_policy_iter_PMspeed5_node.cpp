@@ -237,4 +237,6 @@ int main(int argc, char** argv) {
    ros::NodeHandle nh;
    SharedControl sc = SharedControl(&nh);
    ros::spin();
+	
+   return 0;	
 } // int main(.)
